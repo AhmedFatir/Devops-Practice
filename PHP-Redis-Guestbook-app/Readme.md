@@ -23,6 +23,13 @@ The application is composed of three main components:
    - Runs as a Kubernetes Deployment with 2 replicas for redundancy and scalability.
    - Exposed via a ClusterIP Service on port 6379.
 
+## System Specification
+
+- This project is run using **Docker Desktop** on a **macOS** machine. 
+- Since Docker Desktop uses a virtualized Kubernetes cluster, certain configurations (e.g., resource limits and networking) may differ from other environments such as Linux-native Docker or cloud-hosted Kubernetes.
+- If you are running this project on a different architecture, you may need to adjust the configurations accordingly.
+
+
 ## Kubernetes Resources
 
 ### Frontend Deployment (`frontend.yml`)
