@@ -16,3 +16,15 @@ subjects:
 - kind: ServiceAccount
   name: kubernetes-dashboard
   namespace: kubernetes-dashboard
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  annotations:
+    kubernetes.io/service-account.name: kubernetes-dashboard
+    kubernetes.io/service-account.namespace: kubernetes-dashboard
+  name: kubernetes-dashboard
+  namespace: kubernetes-dashboard
+type: kubernetes.io/service-account-token
+
+# kubectl -n kubernetes-dashboard create token kubernetes-dashboard
