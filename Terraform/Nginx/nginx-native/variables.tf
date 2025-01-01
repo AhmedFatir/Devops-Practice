@@ -13,7 +13,17 @@ variable "port_external" {
   default     = 0
   type        = number
   validation {
-    condition     = var.portexternal > 0
+    condition     = var.port_external > 0
     error_message = "External Port must be greater than 0"
+  }
+}
+
+variable "docker_user" {
+  description = "Docker user"
+  default     = "user"
+  type        = string
+  validation {
+    condition     = var.docker_user != ""
+    error_message = "Docker user must not be empty"
   }
 }
