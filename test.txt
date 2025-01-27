@@ -1,14 +1,22 @@
-test  1: 67  DevOps Introduction
-test  2: 91  Microservices and Containerization
-test  3: 80  Kubernetes Basics
-test  4: 100 OKE Managed nodes
-test  5: 80  OKE cluster access
-test  6: 60  OKE Virtual Nodes
-test  7: 80  OKE Self-Managed Nodes
-test  8: 86  OKE Deployments
-test  9: 80  OKE Storage
-test 10: 100 OKE Administration
-test 11: 100 OKE Security
-test 12: 67  OCI DevOps Project
+1-82.5833333333
+2-85.473684211
 
-82.5833333333
+ 1-DevOps Intro          : 83
+ 2-Microservices         : 82
+ 3-Kubernetes Basics     : 100
+ 4-Managed nodes         : 100
+ 5-cluster access        : 80
+ 6-Virtual Nodes         : 80
+ 7-Self-Managed Nodes    : 80
+ 8-Deployments           : 86
+ 9-Storage               : 80
+10-Administration        : 100
+11-Security              : 100
+12-DevOps Basics         : 83
+13-CI/CD                 : 67
+14-Deployment Strategies : 80
+15-Helm chart            : 40
+16-Terraform             : 100
+17-Resource Manage       : 100
+18-DevSecOps             : 100
+19-Observability         : 83
