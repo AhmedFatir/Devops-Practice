@@ -1,22 +1,23 @@
-1-82.5833333333
-2-85.473684211
+1-82.58
+2-85.47
+3-95.05
 
- 1-DevOps Intro          : 83
- 2-Microservices         : 82
+ 1-DevOps Intro          : 100
+ 2-Microservices         : 100
  3-Kubernetes Basics     : 100
  4-Managed nodes         : 100
- 5-cluster access        : 80
+ 5-cluster access        : 100
  6-Virtual Nodes         : 80
  7-Self-Managed Nodes    : 80
- 8-Deployments           : 86
- 9-Storage               : 80
+ 8-Deployments           : 100
+ 9-Storage               : 100
 10-Administration        : 100
 11-Security              : 100
 12-DevOps Basics         : 83
-13-CI/CD                 : 67
+13-CI/CD                 : 83
 14-Deployment Strategies : 80
-15-Helm chart            : 40
+15-Helm chart            : 100
 16-Terraform             : 100
 17-Resource Manage       : 100
 18-DevSecOps             : 100
-19-Observability         : 83
+19-Observability         : 100
